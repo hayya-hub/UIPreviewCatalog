@@ -22,9 +22,9 @@ public struct UIPreviewCatalogConfig {
 
         var filenameExtension: String {
             if case .jpg = self {
-                return "jpg"
+                return ".jpg"
             } else {
-                return "png"
+                return ".png"
             }
         }
     }
